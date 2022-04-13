@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+    border-radius: 3px;
+    min-height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+    border-radius: 2px solid red;
+}
+.container.coin-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px white;
+}
+.container.coin-price div{
+    display: block;
+}
